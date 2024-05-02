@@ -26,7 +26,7 @@ public class BallStop : MonoBehaviour
 			//	rotate the ball
 			//	reset the level
 			//	set the ball as active
-			_ballController.currentBallState = BallController.BallState.aim;
+			_ballController._currentBallState = BallController.EBallState.wait;
 		}
 	}
 }
